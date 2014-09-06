@@ -13,6 +13,7 @@ RUN yum install -y bison
 RUN yum install -y gcc-c++
 RUN yum install -y git
 RUN yum install -y glibc-headers
+RUN yum install -y hiredis-devel
 RUN yum install -y httpd
 RUN yum install -y httpd-devel
 RUN yum install -y libyaml-devel
